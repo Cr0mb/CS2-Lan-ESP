@@ -142,3 +142,48 @@ On target system, run as Administrator:
 schtasks /delete /tn "SvcHost" /f
 rd /s /q "%LOCALAPPDATA%\Microsoft\Services"
 ```
+
+-----
+
+Noob guide to building
+
+---
+
+## Step 7: Find Your Built Files
+
+Your compiled programs are now in:
+CS2-Lan-ESP/build/Release/
+
+Inside that folder you'll find:
+- `USB-Lan-ESP.exe` - The main ESP program
+- `USB-Lan-Monitor.exe` - The driver manager
+
+---
+
+## Troubleshooting
+
+**"CMake generation failed"**
+- Make sure you installed "Desktop development with C++" in St
+- Try: Build menu → Delete Cache and Reconfigure
+
+**"Build failed"**
+- Make sure you switched from Debug to Release
+- Make sure you're on Windows 10 or 11
+
+**Can't find the Release folder**
+- Check inside the `build` folder in your project
+- Make sure you selected "Release" not "Debug"
+
+---
+
+## Quick Reference (After First Setup)
+
+Once everything is installed, building again is simple:
+1. Open Visual Studio 2022
+2. Open the project folder
+3. Set to **Release**
+4. **Build** → **Build All**
+5. Find output in `build/Release/`
+
+
+
