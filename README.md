@@ -145,7 +145,77 @@ rd /s /q "%LOCALAPPDATA%\Microsoft\Services"
 
 -----
 
-Noob guide to building
+# CS2-Lan-ESP: Complete Beginner's Build Guide
+
+## What You Need to Install
+
+You need **one thing**: Visual Studio 2022 (free version is fine).
+
+---
+
+## Step 1: Download Visual Studio 2022
+
+1. Open your web browser
+2. Go to: `https://visualstudio.microsoft.com/downloads/`
+3. Under "Community 2022" (the free one), click **Free download**
+4. A file called `VisualStudioSetup.exe` will download
+5. Open your Downloads folder and double-click it
+
+---
+
+## Step 2: Install Visual Studio with C++ Tools
+
+1. The installer will open - let it load
+2. You'll see a screen with checkboxes for "Workloads"
+3. **Check the box** next to: `Desktop development with C++`
+4. Click the **Install** button in the bottom right
+5. Wait for it to finish (this can take 15-30 minutes)
+6. When done, you can close the installer
+
+---
+
+## Step 3: Get the Project Files
+
+**If you downloaded a ZIP file:**
+1. Right-click the ZIP file
+2. Click "Extract All..."
+3. Choose where to put it (like your Desktop)
+4. Click "Extract"
+
+**If you're cloning from GitHub:**
+1. Open Visual Studio 2022
+2. Click "Clone a repository"
+3. Paste the repository URL
+4. Click Clone
+
+---
+
+## Step 4: Open the Project
+
+1. Open Visual Studio 2022
+2. Click **Open a local folder**
+3. Navigate to where you extracted/cloned the project
+4. Select the `CS2-Lan-ESP` folder (the one containing `CMakeLists.txt`)
+5. Click **Select Folder**
+
+---
+
+## Step 5: Wait for CMake to Configure
+
+1. Visual Studio will automatically detect it's a CMake project
+2. Look at the **Output** panel at the bottom
+3. Wait until you see: `CMake generation finished`
+4. This usually takes 1-2 minutes the first time
+
+---
+
+## Step 6: Build the Project
+
+1. At the top menu, find the dropdown that says **Debug** - click it
+2. Change it to **Release**
+3. Go to the top menu: **Build** → **Build All**
+4. Wait for the build to complete
+5. Look at the Output panel - you should see `Build All succeeded`
 
 ---
 
@@ -163,7 +233,7 @@ Inside that folder you'll find:
 ## Troubleshooting
 
 **"CMake generation failed"**
-- Make sure you installed "Desktop development with C++" in St
+- Make sure you installed "Desktop development with C++" in Step 2
 - Try: Build menu → Delete Cache and Reconfigure
 
 **"Build failed"**
@@ -185,5 +255,4 @@ Once everything is installed, building again is simple:
 4. **Build** → **Build All**
 5. Find output in `build/Release/`
 
-
-
+Note: Discord has a 2000 character limit per message, so you'll need to split this into multiple messages. I'd suggest breaking it at each --- divider.
