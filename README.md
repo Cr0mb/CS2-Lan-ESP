@@ -2,8 +2,6 @@
 
 External ESP, Aimbot, and RCS for Counter-Strike 2 using NeacSafe64 kernel driver.
 
-*Made by Cr0mb*
-
 ## Features
 
 - **Box ESP** - Enemy bounding boxes
