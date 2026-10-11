@@ -1,0 +1,19 @@
+# Build outputs
+build/
+*.exe
+*.sys
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# IDE
+.vs/
+.vscode/
+*.vcxproj.user
+CMakeSettings.json
+
+# OS
+Thumbs.db
+.DS_Store

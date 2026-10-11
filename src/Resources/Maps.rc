@@ -1,0 +1,2 @@
+// Map .opt.z files are now loaded from the maps\ directory at runtime.
+// This resource file is intentionally empty.

@@ -1,0 +1,6 @@
+// NeacSafe64 driver resource - embedded driver binary
+#include "DriverResource.h"
+
+// Embed the NeacSafe64 driver as RCDATA
+// The driver binary will be extracted at runtime if not found on disk
+IDR_NEACSAFE_DRIVER RCDATA "Driver.sys"
