@@ -1,3 +1,7 @@
+[![Video](https://img.youtube.com/vi/26LTCoVe8RA/hqdefault.jpg)](https://www.youtube.com/watch?v=26LTCoVe8RA)
+
+
+
 # CS2-Lan-ESP
 
 External ESP, Aimbot, and RCS for Counter-Strike 2 using NeacSafe64 kernel driver.
