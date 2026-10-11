@@ -1,4 +1,5 @@
-[![Video](https://www.youtube.com/watch?v=26LTCoVe8RA)
+[Watch on YouTube](https://www.youtube.com/watch?v=26LTCoVe8RA)
+
 
 
 # CS2-Lan-ESP
