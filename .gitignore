@@ -1,7 +1,6 @@
 # Build outputs
 build/
 *.exe
-*.sys
 *.obj
 *.pdb
 *.ilk
